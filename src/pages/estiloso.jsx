@@ -1,31 +1,33 @@
 import styles from '../styles/Estiloso.module.css'
-import Link from 'next/link'
+import Layout from '../components/Layout'
 
 export default function Estiloso() {
 
     return (
-        <div className={styles.cont}>
 
-            <div className={styles.roxo}>
-                <h1>Estilo usando CSS modulos</h1>
+        <Layout>
+
+            <div className={styles.cont}>
+
+
+
+                <div className={styles.roxo}>
+                    <h1>Estilo usando CSS modulos1</h1>
+                </div>
+
+                <div className={styles.roxo}>
+                    <h1>Estilo usando CSS modulos2</h1>
+                </div>
+
+                <div className={styles.roxo}>
+                    <h1>Estilo usando CSS modulos2</h1>
+                </div>
+
+                <div className={styles.roxo}>
+                    <h1>Estilo usando CSS modulos3</h1>
+                </div>
             </div>
-
-            <div className={styles.roxo}>
-                <h1>Estilo usando CSS modulos</h1>
-            </div>
-
-            <div className={styles.roxo}>
-                <h1>Estilo usando CSS modulos</h1>
-            </div>
-            
-            <div className={styles.roxo}>
-                <h1>Estilo usando CSS modulos</h1>
-            </div>
-
-            <Link href="/"><button className="btn"><h3>Voltar</h3></button></Link>
-
-        </div>
-
+        </Layout>
     )
 
 }
