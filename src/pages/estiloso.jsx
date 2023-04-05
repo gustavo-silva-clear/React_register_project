@@ -1,9 +1,9 @@
-import styles from './Estiloso.module.css'
+import styles from '../styles/Estiloso.module.css'
 
 export default function Estiloso() {
 
     return (
-        <div>
+        <div className={styles.cont}>
 
             <div className={styles.roxo}>
                 <h1>Estilo usando CSS modulos</h1>
