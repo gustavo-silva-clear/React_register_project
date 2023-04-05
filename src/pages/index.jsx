@@ -1,12 +1,13 @@
+import Link from "next/link"
+
 export default function Init() {
 
     return (
 
         <div>
-                <h1>Fudamentos de Next.js & React</h1>
-
-                <h2>Vamos estudar esse framework</h2>
-
+            <Link href="/estiloso">
+                <button className="btn"><h3>Estiloso</h3></button>
+            </Link>
         </div>
 
     )

@@ -6,9 +6,9 @@ export default function Example() {
 
         <div>
 
-            <Header />
+            <Header title = "Fundamentos de Next.JS & React"/>
 
-            <Header />
+            <Header title = "Não é dificil"/>
 
 
         </div>

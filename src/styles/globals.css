@@ -106,3 +106,14 @@ h1 , h2 , h3{
 color:#fff
 
 }
+
+.btn {
+
+margin: 20px;
+height: 50px;
+width: 150px;
+background-color: #430087;
+border-radius: 5px;
+font-size: 100%;
+
+}
