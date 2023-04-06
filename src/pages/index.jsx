@@ -12,6 +12,8 @@ export default function Init() {
 
            <Browser texto="Nav" destino="/client/sp-1/132"></Browser> 
 
+           <Browser texto="State" destino="/state"></Browser> 
+
         </div>
 
     )
