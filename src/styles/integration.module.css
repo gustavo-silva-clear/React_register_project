@@ -1,0 +1,10 @@
+.list {
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #141346;
+height: 20vh;
+margin-top: 20px;
+
+}
