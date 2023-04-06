@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-
+import Link from "next/link";
 export default function Example() {
 
     return (
@@ -10,6 +10,7 @@ export default function Example() {
 
             <Header title = "Não é dificil"/>
 
+            <Link href='/'><button className="btn"><h3>Voltar</h3></button></Link>
 
         </div>
 

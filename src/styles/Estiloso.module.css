@@ -3,7 +3,7 @@
     border-width:3px; 
     border-style: solid; 
     border-color: #fff; 
-    padding: 10%;
+    padding: 5%;
     height: 25vh;
     width: 25vw;
     margin: 10%;
@@ -13,10 +13,10 @@
 }
 
 .cont {
-
-
+    
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-
+    margin: 0;
+    padding: 0;
 
 }

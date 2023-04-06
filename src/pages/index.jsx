@@ -1,13 +1,15 @@
 import Link from "next/link"
+import Browser from "../components/browser"
 
 export default function Init() {
 
     return (
 
-        <div>
-            <Link href="/estiloso">
-                <button className="btn"><h3>Estiloso</h3></button>
-            </Link>
+        <div className="home">
+
+            <Browser texto="Style" destino="/estiloso"></Browser>
+            <Browser texto="About" destino="/example"></Browser>
+
         </div>
 
     )
