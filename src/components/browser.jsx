@@ -6,10 +6,8 @@ export default function Browser(props) {
     return (
 
         <Link href={props.destino}>
-            <div className={styles.browser}>
-                <button className="btn">
-                    <h3>{props.texto}</h3>
-                </button>
+            <div className={styles.browser}>    
+                  {props.texto}
             </div>
         </Link>
 

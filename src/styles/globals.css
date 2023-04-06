@@ -66,8 +66,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
-
+  margin: 10;
 }
 
 html,
@@ -95,7 +94,9 @@ h1,
 h2,
 h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #fff
+  color: #fff;
+  
+  
 }
 
 .btn {
@@ -103,20 +104,8 @@ h3 {
   margin: 0;
   height: 70px;
   width: 150px;
-  background-color: #430087;
+  background-color: #220087;
   border-radius: 5px;
   font-size: 100%;
-
-}
-.home{
-
-  display: 'flex';
-  margin: 2%;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  background-color: #d1d1d1;
-  height: 50vh;
-  
-
 
 }

@@ -5,10 +5,12 @@ export default function Init() {
 
     return (
 
-        <div className="home">
+        <div>
 
             <Browser texto="Style" destino="/estiloso"></Browser>
-            <Browser texto="About" destino="/example"></Browser>
+           <Browser texto="About" destino="/example"></Browser> 
+
+           <Browser texto="Nav" destino="/client/sp-1/132"></Browser> 
 
         </div>
 

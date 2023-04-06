@@ -1,10 +1,17 @@
 .browser {
-
-padding: 50px;
-align-items: center;
-border-width: 3px;
-border-color: black;
+    
+border-width: 2px;
+border-color: rgb(131, 131, 131);
 border-style: solid;
+border-radius: 5%;
 margin: 30px;
-
+height: 70px;
+width: 150px;
+background-color: #220087;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #fff;
+font-size:20px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
