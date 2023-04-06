@@ -4,6 +4,8 @@ export default function handler(req, res) {
   res.status(200).json({
     "create by ": "ドリフト王",
     name: 'API test',
-    method: req.method
+    method: req.method,
+    nome: req.query.nome,
+    idade: req.query.idade
   })
 }
